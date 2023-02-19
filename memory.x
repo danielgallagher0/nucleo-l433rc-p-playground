@@ -4,7 +4,7 @@ MEMORY
   /* Flash and RAM origin and lengths defined in DS11449, see the
    * diagram of the STM32L433xx memory map.
    */
-  FLASH : ORIGIN = 0x00000000, LENGTH = 256K
+  FLASH : ORIGIN = 0x08000000, LENGTH = 256K
   RAM : ORIGIN = 0x20000000, LENGTH = 64K
 }
 
